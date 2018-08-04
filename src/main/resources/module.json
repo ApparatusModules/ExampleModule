@@ -1,0 +1,8 @@
+{
+    "name": "ExampleModule",
+    "id": "ExampleModule",
+    "group": "apparatus.module",
+    "version": "latest",
+    "author": "Volmit Software",
+    "dependencies": []
+}

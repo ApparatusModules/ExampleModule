@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>apparatus.module</groupId>
+	<artifactId>ExampleModule</artifactId>
+	<version>latest</version>
+	<name>ExampleModule</name>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<repositories>
+		<repository>
+			<id>volmit</id>
+			<url>http://nexus.volmit.com/content/repositories/volmit</url>
+		</repository>
+		<repository>
+			<id>apparatus</id>
+			<url>http://nexus.volmit.com/content/repositories/apparatus</url>
+		</repository>
+	</repositories>
+	<distributionManagement>
+		<repository>
+			<id>apparatus</id>
+			<url>http://nexus.volmit.com/content/repositories/apparatus</url>
+		</repository>
+	</distributionManagement>
+	<dependencies>
+		<dependency>
+			<groupId>com.volmit</groupId>
+			<artifactId>Apparatus</artifactId>
+			<version>1.0</version>
+		</dependency>
+	</dependencies>
+</project>
